@@ -21,7 +21,7 @@ jobs:
       - name: Run Glog.AI from private repo
         uses: ./.github/glog-action
         with:
-          lang: 'php'
+          lang: 'php,oss, secrets'
           ignore: 'tests,phpunit'
           debug: 'false'
           upload: 'true'
